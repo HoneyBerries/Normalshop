@@ -1,0 +1,19 @@
+name: Normalshop
+version: '1.0.0'
+main: me.honeyberries.normalshop.Normalshop
+api-version: '1.21'
+authors: [ HoneyBerries ]
+description: Shop plugin for HoneyBerries and Pepmon270
+
+commands:
+  shop:
+    description: Opens the shop
+    usage: /shop
+    aliases: [ purchase, buy, store ]
+    permission: normalshop.shop
+    permission-message: You do not have permission to buy stuff from the shop!
+
+permissions:
+    normalshop.shop:
+        description: Allows the player to open the shop
+        default: true
